@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = process.env.WEB_URL || "http://localhost:3001"; 
+const URL = "https://task-planner-api.onrender.com";
 
 export default axios.create({
   baseURL: URL,
