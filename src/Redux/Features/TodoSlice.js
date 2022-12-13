@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const LIMIT = 5;
+const LIMIT = 50;
 
 const initialState = {
   pendingTask: [],
