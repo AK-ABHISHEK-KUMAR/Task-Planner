@@ -1,6 +1,6 @@
 import { Table, Badge } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import Task from "../Assets/Task.svg";
+import Task from "../assets/Task.svg";
 
 export default function CompletedTaskTable() {
   let completedTodos = useSelector((state) => state.crudTodo.completedTask);
