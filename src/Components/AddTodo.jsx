@@ -59,11 +59,11 @@ export default function AddTodo() {
               <Stack gap={3}>
                 <Row>
                   <Col>
-                    <FloatingLabel controlId="Task No." label="User Id">
+                    <FloatingLabel controlId="TaskNo" label="Task No.">
                       <Form.Control
                         type="text"
                         placeholder="1234"
-                        {...register("taskNo", { required: "Id is required" })}
+                        {...register("taskNo", { required: "Task No. is required" })}
                         isInvalid={errors.taskNo ? true : false}
                       />
                       <Form.Control.Feedback type="invalid">
