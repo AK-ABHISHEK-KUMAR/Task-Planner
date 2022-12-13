@@ -1,7 +1,7 @@
 import { Form, Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "../api";
-import TaskDone from "../Assets/TaskDone.svg";
+import TaskDone from "../assets/TaskDone.svg";
 import {
   notToDelete,
   toDelete,
