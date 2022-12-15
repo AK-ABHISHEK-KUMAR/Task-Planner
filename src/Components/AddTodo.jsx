@@ -51,7 +51,7 @@ export default function AddTodo() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title as="h3">Add Todo</Modal.Title>
+          <Modal.Title as="h3">Add Task</Modal.Title>
         </Modal.Header>
         <Form onSubmit={handleSubmit(submitData)}>
           <Modal.Body>
@@ -67,12 +67,12 @@ export default function AddTodo() {
                         isInvalid={errors.taskNo ? true : false}
                       />
                       <Form.Control.Feedback type="invalid">
-                        {errors.id?.message}
+                        {errors.taskNo?.message}
                       </Form.Control.Feedback>
                     </FloatingLabel>
                   </Col>
                   <Col>
-                    <FloatingLabel controlId="Completion" label="Completed">
+                    <FloatingLabel controlId="status" label="Status">
                       <Form.Select
                         defaultValue={"false"}
                         aria-label="Floating label select example"
