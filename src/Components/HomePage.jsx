@@ -111,6 +111,46 @@ export default function Homepage() {
                 </Button>
               </div>
             </Card.Body>
+            <Card.Footer>
+              <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9242419013231930"
+                crossOrigin="anonymous"
+              ></script>
+              <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9242419013231930"
+                crossOrigin="anonymous"
+              ></script>
+              {/* <!-- 1st website-2 --> */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: "block" }}
+                data-ad-client="ca-pub-9242419013231930"
+                data-ad-slot="5517777372"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+              <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9242419013231930"
+                crossOrigin="anonymous"
+              ></script>
+              <ins
+                className="adsbygoogle"
+                style={{ display: "block" }}
+                data-ad-format="fluid"
+                data-ad-layout-key="-6t+ed+2i-1n-4w"
+                data-ad-client="ca-pub-9242419013231930"
+                data-ad-slot="5210693602"
+              ></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </Card.Footer>
           </Card>
         </Card.Body>
       </Card>
